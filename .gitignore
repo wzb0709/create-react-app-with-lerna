@@ -10,6 +10,7 @@
 
 # production
 /build
+/dist
 build.rar
 build.zip
 *.zip
@@ -29,6 +30,6 @@ tslint.json
 /.history
 
 .eslintignore
-.eslintrc.js
-.prettierrc
 .prettierignore
+
+
