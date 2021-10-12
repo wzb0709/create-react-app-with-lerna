@@ -19,6 +19,9 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint --fix"
+    ],
+    "*.{css,scss}": [
+      "yarn run stylelint"
     ]
   },
   "scripts": {
@@ -27,7 +30,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "fix": "eslint --fix --ext .ts --ext .tsx src/",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "stylelint": "stylelint --fix **/*.{css,scss}"
   },
   "eslintConfig": {
     "extends": [
